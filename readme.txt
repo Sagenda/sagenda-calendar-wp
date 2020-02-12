@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.3
-Stable tag: 1.5.0
+Stable tag: 2.0.0 alpha
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,7 +46,7 @@ This will simply remove the corresponding button to switch from a view to anothe
 
 **Prerequisites**
 SAGENDA WP PLUGIN REQUIRE ⚠️ PHP 5.6 or 7.x  !
-⚠️ FOR YOUR OWN SAFETY DON'T USE PHP VERSION OLDER THAN 7.1 THERE IS NO SECURITY PATCH ⚠️
+⚠️ FOR YOUR OWN SAFETY DON'T USE PHP VERSION OLDER THAN 7.2 THERE IS NO SECURITY PATCH ⚠️
 [http://php.net/supported-versions.php](http://php.net/supported-versions.php)
 
 Sagenda WP plugin require the PHP "Curl extension" to be activated on your hosting to call web services.
@@ -98,15 +98,20 @@ We will add your translations in the next release!
 1. Calendar view
 2. How to identify my Sagenda account in WordPress? Copy the authentication code (token) from your Sagenda account and paste it into your WordPress installation
 
-
+composer update
 == Upgrade Notice ==
+= 2.0.0 =
+* ADDED : New calendar view with Agenda.
+* TESTED : PHP 7.4.
+* UPDATED : Updated composer package (phpunit-bridge) to solve security advisory GHSA-w2fr-65vp-mxw3 (moderate severity).
+
+== Changelog ==
 = 1.5.0 =
 * ADDED : improved support for customization edition form.
 * FIXED : A bug when adding another member for multiple booking and when not having customized fields.
 * FIXED : A bug when starting the week view with monday instead of sunday, the date displayed on the header where not updated.
 * TESTED : tested WordPress 5.3.
 
-== Changelog ==
 = 1.4.0 =
 * ADDED : First support for customization edition form.
 
