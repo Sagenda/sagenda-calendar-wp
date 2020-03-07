@@ -4,7 +4,7 @@ Donate link: http://www.sagenda.com/community/
 Tags: booking, appointment, scheduling, availability, reservation, rental, free, accommodation, booking form, calendar
 Requires at least: 3.0
 Requires PHP: 5.6
-Tested up to: 5.3
+Tested up to: 5.4
 Stable tag: 2.0.0 alpha
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -101,8 +101,10 @@ We will add your translations in the next release!
 composer update
 == Upgrade Notice ==
 = 2.0.0 =
+ALPHA VERSION : DO NOT USE FOR PROD!
 * ADDED : New calendar view with Agenda.
-* TESTED : PHP 7.4.
+* TESTED : PHP 7.4.x
+* TESTED : WordPress 5.4
 * UPDATED : Updated composer package (phpunit-bridge) to solve security advisory GHSA-w2fr-65vp-mxw3 (moderate severity).
 
 == Changelog ==
