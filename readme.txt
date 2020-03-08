@@ -100,12 +100,14 @@ We will add your translations in the next release!
 
 composer update
 == Upgrade Notice ==
-= 2.0.0 =
+= 2.0.0-ALPHA-1 =
 ALPHA VERSION : DO NOT USE FOR PROD!
-* ADDED : New calendar view with Agenda.
+* ADDED : New calendar with Agenda view.
+* ADDED : You can now display bookings in public view (optional).
 * TESTED : PHP 7.4.x
 * TESTED : WordPress 5.4
 * UPDATED : Updated composer package (phpunit-bridge) to solve security advisory GHSA-w2fr-65vp-mxw3 (moderate severity).
+* LIMITATION : This version can't manage "Agenda" view for default nor activation/desactivation feature.
 
 == Changelog ==
 = 1.5.0 =
