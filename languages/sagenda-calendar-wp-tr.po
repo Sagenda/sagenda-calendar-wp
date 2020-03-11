@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2018-12-08 09:25+0000\n"
+"PO-Revision-Date: 2020-03-11 22:17+0100\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.12\n"
+
+msgid "Next"
+msgstr "İleri"
+
+msgid "Today"
+msgstr "Bu Gün"
+
+msgid "Previous"
+msgstr "Geri"
+
+msgid "Month"
+msgstr "Ay"
+
+msgid "Week"
+msgstr "Hafta"
+
+msgid "Day"
+msgstr "Gün"
+
+msgid "You didn't add any Bookable item, please configure your Sagenda's account properly !"
+msgstr "Ayırtılabilir bir öğe seçimi yapmadınız, Lütfen Sagenda hesabınızın ayarlarını doğru bir şekilde yapılandırın."
+
+msgid "NOT CONNECTED"
+msgstr "Bağlatı Kurulamadı"
+
+msgid "CONNECTED"
+msgstr "Bağlandı"
+
+msgid "Sagenda Authentication Settings"
+msgstr "Sagenda Doğrulama Kodu Ayarları"
+
+msgid "Sagenda Authentication Code"
+msgstr "Sagenda Doğrulama Kodu"
+
+msgid "Save Changes"
+msgstr "Değşiklikleri Kayıt Et"
+
+msgid "Current Status"
+msgstr "Durum"
+
+msgid "Click here to get your Authentication code."
+msgstr "Doğrulama Kodu almak için tıklayın"
+
+msgid "Search"
+msgstr "Arama"
+
+msgid "Click an event to book It:"
+msgstr "Ayırmak istediğiniz etkinliğe tıklayın"
+
+msgid "Help"
+msgstr "Yardım"
+
+msgid "Subscription"
+msgstr "Abonelik"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "First Name"
+msgstr "Ad"
+
+msgid "Last Name"
+msgstr "Soyad"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Mr."
+msgstr "Bay"
+
+msgid "Mrs."
+msgstr "Bayan"
+
+msgid "Miss"
+msgstr "Bayan"
+
+msgid "Dr"
+msgstr "Dr"
+
+msgid "Phone Number"
+msgstr "Tel No"

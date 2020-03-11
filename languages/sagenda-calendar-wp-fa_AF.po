@@ -1,0 +1,230 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2017-03-08 22:18+0100\n"
+"PO-Revision-Date: 2020-03-11 22:17+0100\n"
+"Last-Translator: David Imboden <info<this is at>iteration.info>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: controllers/AdminTokenController.php:28
+msgid "NOT CONNECTED"
+msgstr "متصل نشد"
+
+#: controllers/AdminTokenController.php:33
+msgid "CONNECTED"
+msgstr "متصل شد"
+
+#: controllers/AdminTokenController.php:37
+msgid "Sagenda Authentication Settings"
+msgstr "Sagenda تنظیمات تاییدی"
+
+#: controllers/AdminTokenController.php:38
+msgid "Sagenda Authentication Code"
+msgstr "Sagenda کد  تایید"
+
+#: controllers/AdminTokenController.php:39
+msgid "Save Changes"
+msgstr "تغییرات حفظ کنید"
+
+#: controllers/AdminTokenController.php:40
+msgid "Current Status"
+msgstr "وضعیت جاری"
+
+#: controllers/AdminTokenController.php:41
+msgid "Click here to get your Authentication code."
+msgstr "اینجا کلیک کنید برای دریافتن کد تایید خود "
+
+#: controllers/AdminTokenController.php:42
+msgid ""
+"<strong>[sagenda-calendar-wp]</strong> add this shortcode either in a post or page "
+"where you want to display the Sagenda form."
+msgstr ""
+"<strong>[sagenda-calendar-wp]</strong> کود کوتاه را اضافه کنید یا به پست یا به سایتی "
+"که می خواهید فرم Sagenda را نمایش بدهید."
+
+#: controllers/AdminTokenController.php:43
+msgid ""
+"<strong>[sagenda-calendar-wp bookableitem=\"my bookable item name\"]</strong> if you "
+"want to display only one bookable item on that page. Pay attention : if your "
+"bookable item is name \"My Item\", bookableitem=\"my item\" or bookableitem=\"My Item"
+"\" will be correct, but \"bookableitem=\"myitem\" not!"
+msgstr ""
+"<strong>[sagenda-calendar-wp bookableitem=\"my bookable item name\"]</strong> \n"
+"اگر می خواهید نمایش فقط یک آیتم دریافت در این سایت ببینید.\n"
+"توجه کنید: اگراسم آیتم دریافت تان \" آیتم من \" است, آیتم دریافت=\" آیتم من\" یا "
+"آیتم دریافت \" آیتم من\" درست خواهید بود, اما  \" آیتممن \" نمی شود!"
+
+#: controllers/AdminTokenController.php:44
+msgid ""
+"If you want to use a shortcode outside of the WordPress post or page editor, you can "
+"use this snippet to output it from the shortcode’s handler(s): <pre>echo "
+"do_shortcode([sagenda-calendar-wp])</pre>"
+msgstr ""
+"اگر میخواهید استفاده از کد کوتاه در WordPress پست یا سایت ادیتور، شما می توانید از "
+"این قطعه (snippet) استفاده کنید برای تولید ان را از برنامه کنترلها ((handler(s) کود "
+"کوتاه : <pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
+
+#: controllers/AdminTokenController.php:45
+msgid ""
+"NOTE: You first need to register on Sagenda and then you will get a Authentication "
+"token which you will use to validate this Sagenda Plugin."
+msgstr ""
+"توجه کنید: اولا شما باید در Sagenda ثبت کنید و سپس یک رمز تولیدی به دست بیاورید و از "
+"ان رمز تولیدی  باید استفاده کنید تا تایید اعتبار ان Sagenda پلاگین کنید. "
+
+#: controllers/AdminTokenController.php:46
+msgid "Read more"
+msgstr " اطلاعات بیشتر بخوانید"
+
+#: controllers/AdminTokenController.php:47
+msgid "Create a free account "
+msgstr "جهت ساخت یک حساب کاربری رایگان "
+
+#: controllers/AdminTokenController.php:48
+msgid "About integration in your WP WebSite :"
+msgstr "درباره ادغام درWP سایت تان قرار است"
+
+#: controllers/AdminTokenController.php:49
+msgid "How to get the token :"
+msgstr "چطور رمزی به دست آوردن"
+
+#: controllers/AdminTokenController.php:50
+msgid "Useful links :"
+msgstr "لینک های لازم"
+
+#: controllers/InformationMessageController.php:23
+#: controllers/SubscriptionController.php:49
+msgid "Back"
+msgstr "برگرد"
+
+#: controllers/InformationMessageController.php:24
+msgid "You successfully subscribed to the event."
+msgstr "شما به این واقعه ای با موفقیت ارسال کردید."
+
+#: controllers/SearchController.php:51
+msgid ""
+"You didn't configure Sagenda properly please enter your authentication code in "
+"Settings"
+msgstr ""
+"شما پیکربندی Sagenda درست نکردید. لطفاً یک بار دیگر کد  تایید تان را در تنظیمات "
+"گواهینامه ارسال کنید."
+
+#: controllers/SearchController.php:78
+msgid "Search for all the events between"
+msgstr "جستجو کن به همه واقعها بین "
+
+#: controllers/SearchController.php:79
+msgid "From"
+msgstr "از"
+
+#: controllers/SearchController.php:80
+msgid "To"
+msgstr "به"
+
+#: controllers/SearchController.php:81
+msgid "Please choose a bookable item"
+msgstr " لطفاً یک آیتم دریافتی را انتخاب کنید"
+
+#: controllers/SearchController.php:82
+msgid "Location"
+msgstr "محل"
+
+#: controllers/SearchController.php:83 controllers/SubscriptionController.php:47
+msgid "Description"
+msgstr "تعریف"
+
+#: controllers/SearchController.php:84
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "جهت ساخت یک حساب کاربری رایگان رزرو در Sagenda!"
+
+#: controllers/SearchController.php:85
+msgid "Search"
+msgstr "جستجو کن"
+
+#: controllers/SearchController.php:86
+msgid "Click an event to book It:"
+msgstr "واقعه ای کلیک کنید تا رزرو ان را:"
+
+#: controllers/SearchController.php:89
+msgid "book-it!"
+msgstr ""
+
+#: controllers/SearchController.php:90 controllers/SubscriptionController.php:50
+msgid "Help"
+msgstr "کمک"
+
+#: controllers/SearchController.php:92
+msgid "No event found for the bookable item within the selected date range."
+msgstr "هیچ واقعه ای در دوره محدوده منتخب برای آیتم دریافت پیدا نشد. "
+
+#: controllers/SubscriptionController.php:35
+msgid "Subscription"
+msgstr "اشتراک"
+
+#: controllers/SubscriptionController.php:36
+msgid "Email"
+msgstr "ایمیل"
+
+#: controllers/SubscriptionController.php:37
+msgid "First Name"
+msgstr "اسم "
+
+#: controllers/SubscriptionController.php:38
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: controllers/SubscriptionController.php:39
+msgid "Title"
+msgstr "عنوان"
+
+#: controllers/SubscriptionController.php:40
+msgid "Mr."
+msgstr "آقا"
+
+#: controllers/SubscriptionController.php:41
+msgid "Mrs."
+msgstr "خانم"
+
+#: controllers/SubscriptionController.php:42
+msgid "Miss"
+msgstr "خانم"
+
+#: controllers/SubscriptionController.php:43
+msgid "Dr"
+msgstr "دکتر"
+
+#: controllers/SubscriptionController.php:46
+msgid "Phone Number"
+msgstr "شماره تلفن"
+
+#: controllers/SubscriptionController.php:48
+msgid "Submit"
+msgstr "ارسال"
+
+#: controllers/SubscriptionController.php:75
+msgid "Please fill out all the required fields"
+msgstr "لطفاً همه زمینه های لازم پر کنید"
+
+#: webservices/SagendaAPI.php:27
+msgid "Successfully connected"
+msgstr " متصل موفق"
+
+#: webservices/SagendaAPI.php:32
+msgid ""
+"Your token is wrong; please try again or generate another one in Sagenda’s backend."
+msgstr "رمز تان  درست نیست; لطفاً تکرار کنید یا تولید یک دیگر را در Sagenda پشت خط."
+
+#: webservices/SagendaAPI.php:85
+msgid "An error has occurred. Booking wasn't saved."
+msgstr "یک اشتباه وجود داشت. رزرو ذخیره نشد."

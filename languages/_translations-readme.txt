@@ -1,4 +1,4 @@
-Translations, Last Update : 08.07.2018
+Translations, Last Update : 11.03.2020
 
 Sadly WordPress don’t manage fallback correctly : it’s not possible to create a “fr” file for “fr_FR” and “fr_BE”. For now we have to duplicate all file for each language_culture.
 

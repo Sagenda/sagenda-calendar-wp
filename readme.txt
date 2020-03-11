@@ -95,8 +95,13 @@ WordPress plugin txt :
 We will add your translations in the next release!
 
 == Screenshots ==
-1. Calendar view
-2. How to identify my Sagenda account in WordPress? Copy the authentication code (token) from your Sagenda account and paste it into your WordPress installation
+1. Yes a nice (monthly) calendar view that is mobile friendly!
+2. Oh yes, you can display week also.
+3. Guess what... yes day view!
+4. For sure, Agenda view! Ok you can call it list view also.
+5. Ok almost the same view but you can have event with more than one seat to be booked.
+6. Yes this form can be editer from your Sagenda.net account.
+7. How to identify my Sagenda account in WordPress? Copy the authentication code (token) from your Sagenda account and paste it into your WordPress installation
 
 composer update
 == Upgrade Notice ==

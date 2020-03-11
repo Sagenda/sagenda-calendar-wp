@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2017-07-04 18:46+0000\n"
+"PO-Revision-Date: 2020-03-11 22:09+0100\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: David Imboden <info<this is at>iteration.info>\n"
+"X-Generator: Poedit 1.8.12\n"
+
+msgid "Month"
+msgstr "Monat"
+
+msgid "Week"
+msgstr "Woche"
+
+msgid "Day"
+msgstr "Tag"
+
+msgid "NOT CONNECTED"
+msgstr "Nicht verbunden"
+
+msgid "CONNECTED"
+msgstr "Verbunden"
+
+msgid "Sagenda Authentication Settings"
+msgstr "Sagenda Authentifizierungs-Einstellungen"
+
+msgid "Sagenda Authentication Code"
+msgstr "Sagenda Authentifizierungs-Code"
+
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+msgid "Current Status"
+msgstr "Aktueller Status"
+
+msgid "Click here to get your Authentication code."
+msgstr "Klicken Sie hier, um Ihren Authentifizierungs-Code zu bekommen."
+
+msgid "<strong>[sagenda-calendar-wp]</strong> add this shortcode either in a post or page where you want to display the Sagenda form."
+msgstr "<strong>[sagenda-calendar-wp]</strong> fügen Sie diesen short code in dem Artikel oder der Seite ein, in der Sie das Sagenda-Formular anzeigen wollen."
+
+msgid "<strong>[sagenda-calendar-wp bookableitem=\"my bookable item name\"]</strong> if you want to display only one bookable item on that page. Pay attention : if your bookable item is name \"My Item\", bookableitem=\"my item\" or bookableitem=\"My Item\" will be correct, but \"bookableitem=\"myitem\" not!"
+msgstr "<strong>[sagenda-calendar-wp bookableitem=\"my bookable item name\"]</strong> wenn Sie nur ein bookable item auf dieser Seite anzeigen wollen. Bitte beachten Sie: Wenn ihr bookable item \"My Item\" heißt, ist bookableitem=\"my item\" oder bookableitem=\"My Item\" richtig, aber \"bookableitem=\"myitem\" nicht!"
+
+msgid "If you want to use a shortcode outside of the WordPress post or page editor, you can use this snippet to output it from the shortcode’s handler(s): <pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
+msgstr "Wenn Sie den Shortcode außerhalb des WordPress Beitrags- oder SeitenEditors benutzen möchten, verwenden Sie folgendes Code-Stückchen um es vom Shortcode-Handler ausgeben zu lassen: <pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
+
+msgid "NOTE: You first need to register on Sagenda and then you will get a Authentication token which you will use to validate this Sagenda Plugin."
+msgstr "ACHTUNG: Sie müssen sich erst bei Sagenda anmelden, und bekommen dort den Authentifizierungsschlüssel, den für das Sagenda Plugin brauchen."
+
+msgid "Read more"
+msgstr "Weiterlesen"
+
+msgid "Create a free account "
+msgstr "Ein kostenloses Konto eröffnen "
+
+msgid "About integration in your WP WebSite :"
+msgstr "Über die Einbindung in Ihre WordPress Webseite:"
+
+msgid "How to get the token :"
+msgstr "Wie man den Schlüssel bekommt:"
+
+msgid "Useful links :"
+msgstr "Nützliche Links"
+
+msgid "You didn't configure Sagenda properly please enter your authentication code in Settings"
+msgstr "Sie haben Sagenda nicht richtig eingerichtet, bitte geben Sie Ihren Authentifizierungscode in den Einstellungen ein."
+
+msgid "Search for all the events between"
+msgstr "Suchen Sie nach allen Terminen zwischen"
+
+msgid "Back"
+msgstr "Zurück"
+
+msgid "You successfully subscribed to the event."
+msgstr "Sie haben sich erfolgreich für die Veranstaltung angemeldet."
+
+msgid "From"
+msgstr "von"
+
+msgid "To"
+msgstr "bis"
+
+msgid "Please choose a bookable item"
+msgstr "Bitte wählen Sie ein Angebot"
+
+msgid "Location"
+msgstr "Ort"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "Richten Sie eine kostenloses Buchungskonto bei Sagenda ein!"
+
+msgid "Search"
+msgstr "Suchen"
+
+msgid "Click an event to book It:"
+msgstr "Klicken Sie auf ein Ereignis, um es zu buchen"
+
+msgid "book-it!"
+msgstr "Buchen!"
+
+msgid "Help"
+msgstr "Hilfe"
+
+msgid "No event found for the bookable item within the selected date range."
+msgstr "Kein Termin für das buchbare Element im ausgewählten Zeitraum gefunden."
+
+msgid "Subscription"
+msgstr "Abonnement"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "First Name"
+msgstr "Vorname"
+
+msgid "Last Name"
+msgstr "Nachname"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Mr."
+msgstr "Herr"
+
+msgid "Mrs."
+msgstr "Frau"
+
+msgid "Miss"
+msgstr "Frau"
+
+msgid "Dr"
+msgstr "Dr."
+
+msgid "Phone Number"
+msgstr "Telefon"
+
+msgid "Submit"
+msgstr "Absenden"
+
+msgid "Your selected booking :"
+msgstr "Sie haben folgende Buchung ausgewählt:"
+
+msgid "Event Name"
+msgstr "Termin Name"
+
+msgid "Payment Amount"
+msgstr "Zahlungskonto"
+
+msgid "Now, let's book it! Please fill out the form below."
+msgstr "Jetzt buchen! Bitte füllen Sie unten das Formular aus."
+
+msgid "Please fill out all the required fields"
+msgstr "Bitte füllen Sie die erforderlichen Felder aus."
+
+msgid "Successfully connected"
+msgstr "Erfolgreich verbunden"
+
+msgid "Your token is wrong; please try again or generate another one in Sagenda’s backend."
+msgstr "Ihr Token ist falsch. Bitte versuchen Sie es noch eimal oder erzeugen Sie ein neues auf Sagendas Webseite."
+
+msgid "An error has occurred. Booking wasn't saved."
+msgstr "Es ist ein Fehler aufgetreten. Die Buchung konnte nicht gespeichert werden."

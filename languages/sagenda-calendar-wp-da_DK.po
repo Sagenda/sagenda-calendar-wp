@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2017-11-10 20:48+0000\n"
+"PO-Revision-Date: 2020-03-11 22:18+0100\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.12\n"
+
+msgid "Next"
+msgstr "Næste"
+
+msgid "Today"
+msgstr "I dag"
+
+msgid "Previous"
+msgstr "Forrige"
+
+msgid "Month"
+msgstr "Måned"
+
+msgid "Week"
+msgstr "Uge"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "You didn't add any Bookable item, please configure your Sagenda's account properly !"
+msgstr "Du har ikke tilføjet reserverbare begivenheder, konfigurer venligst din konto hos Sagenda korrekt!"
+
+msgid "NOT CONNECTED"
+msgstr "IKKE TILSLUTTET"
+
+msgid "CONNECTED"
+msgstr "TILSLUTTET"
+
+msgid "Sagenda Authentication Settings"
+msgstr "Sagenda godkendelsesindstillinger"
+
+msgid "Sagenda Authentication Code"
+msgstr "Sagenda Godkendelseskode"
+
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+msgid "Current Status"
+msgstr "Nuværende status"
+
+msgid "Click here to get your Authentication code."
+msgstr "Klik her for at få din Godkendelseskode"
+
+msgid "<strong>[sagenda-calendar-wp]</strong> add this shortcode either in a post or page where you want to display the Sagenda form."
+msgstr "<strong>[sagenda-calendar-wp]</strong> tilføj denne shortcode enten i et indlæg eller på en side hvor du vil vise Sagenda formen"
+
+msgid "<strong>[sagenda-calendar-wp bookableitem=\"my bookable item name\"]</strong> if you want to display only one bookable item on that page. Pay attention : if your bookable item is name \"My Item\", bookableitem=\"my item\" or bookableitem=\"My Item\" will be correct, but \"bookableitem=\"myitem\" not!"
+msgstr "<strong>[sagenda-calendar-wp bookableitem=\"my bookable item name\"]</strong> hvis du kun ønsker at vise et reserverbart produkt på den side. Være opmærksom på, hvis dit reserverbare produkt hedder \" My Item\" så er bookableitem=\"my item\" eller bookableitem=\"My Item\" korrekt, MEN \"bookableitem=\"myitem\" vil ikke kunne bruges!!"
+
+msgid "If you want to use a shortcode outside of the WordPress post or page editor, you can use this snippet to output it from the shortcode’s handler(s): <pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
+msgstr "Hvis du gerne vil bruge shortcode udenfor wordpress indlæg eller side redigering, kan du bruge denne snippet for at vise det fra shortcode’s håndteringsenhed(er): <pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
+
+msgid "NOTE: You first need to register on Sagenda and then you will get a Authentication token which you will use to validate this Sagenda Plugin."
+msgstr "BEMÆRK: Du skal først oprette en konto på Sagenda og derefter vil du modtage en Godkendelses token som vil kunne godkende dette Sagenda Plugin."
+
+msgid "Read more"
+msgstr "Læs mere"
+
+msgid "Create a free account "
+msgstr "Opret en gratis konto "
+
+msgid "About integration in your WP WebSite :"
+msgstr "Omkring integration med din WP hjemmeside"
+
+msgid "How to get the token :"
+msgstr "Sådan får du et token"
+
+msgid "Useful links :"
+msgstr "Brugbare links"
+
+msgid "You didn't configure Sagenda properly please enter your authentication code in Settings"
+msgstr "Du har ikke konfigureret Sagenda korrekt, venligst indtast din godkendelses kode i indstillinger"
+
+msgid "Search for all the events between"
+msgstr "Søg efter alle begivenheder mellem"
+
+msgid "Back"
+msgstr "Tilbage"
+
+msgid "You successfully subscribed to the event."
+msgstr "Du har abonneret på arrangementet."
+
+msgid "Please pay for your event"
+msgstr "Vær venlig at betale for dit arrangement"
+
+msgid "Pay"
+msgstr "Betal"
+
+msgid "From"
+msgstr "Fra"
+
+msgid "To"
+msgstr "Til"
+
+msgid "Please choose a bookable item"
+msgstr "Venligst vælg et reserverbart produkt"
+
+msgid "Location"
+msgstr "Lokation"
+
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "Opret en gratis reservations konto på Sagenda!"
+
+msgid "Search"
+msgstr "søg"
+
+msgid "Click an event to book It:"
+msgstr "Tryk på en begivenhed for at reservere den:"
+
+msgid "book-it!"
+msgstr "Reserver"
+
+msgid "Help"
+msgstr "Hjælp"
+
+msgid "No event found for the bookable item within the selected date range."
+msgstr "Der blev ikke fundet nogen reserverbar begivenhed indenfor det valgte datointerval."
+
+msgid "Subscription"
+msgstr "abbonnement"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "First Name"
+msgstr "Fornavn"
+
+msgid "Last Name"
+msgstr "Efternavn"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Mr."
+msgstr "Hr."
+
+msgid "Mrs."
+msgstr "Fru."
+
+msgid "Miss"
+msgstr "Frk."
+
+msgid "Dr"
+msgstr "Dr."
+
+msgid "Phone Number"
+msgstr "Telefon nummer"
+
+msgid "Submit"
+msgstr "Send"
+
+msgid "Your selected booking :"
+msgstr "Din valgte reservation"
+
+msgid "Event Name"
+msgstr "Navn på begivenhed"
+
+msgid "Payment Amount"
+msgstr "Betalingsbeløb"
+
+msgid "Now, let's book it! Please fill out the form below."
+msgstr "Lad os nu bestille det! Udfyld venligst nedenstående formular."
+
+msgid "Please fill out all the required fields"
+msgstr "Venligst udfyld alle påkrævet felter"
+
+msgid "Successfully connected"
+msgstr "Forbindelse fuldført"
+
+msgid "Your token is wrong; please try again or generate another one in Sagenda’s backend."
+msgstr "Dit token er forkert. Prøv venligst igen, eller generer ny token i Sagenda's Backend."
+
+msgid "An error has occurred. Booking wasn't saved."
+msgstr "Der skete en fejl. Reservation blev ikke gemt"

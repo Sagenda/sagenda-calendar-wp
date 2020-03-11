@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2020-03-11 20:18+0000\n"
+"PO-Revision-Date: 2020-03-11 22:17+0100\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.12\n"
+
+msgid "Next"
+msgstr "İleri"
+
+msgid "Today"
+msgstr "Bugün"
+
+msgid "Previous"
+msgstr "Bir önceki"
+
+msgid "Month"
+msgstr "Ay"
+
+msgid "Week"
+msgstr "Hafta"
+
+msgid "Day"
+msgstr "Gün"
+
+msgid "You didn't add any Bookable item, please configure your Sagenda's account properly !"
+msgstr "Ayırtılabilir bir öğe seçimi yapmadınız, Lütfen Sagenda hesabınızın ayarlarını doğru bir şekilde yapılandırın."
+
+msgid "NOT CONNECTED"
+msgstr "BAĞLANTI KURULAMADI"
+
+msgid "CONNECTED"
+msgstr "BAĞLANDI"
+
+msgid "Sagenda Authentication Settings"
+msgstr "Sagenda Doğrulama Kodu Ayarları"
+
+msgid "Sagenda Authentication Code"
+msgstr "Sagenda Doğrulama Kodu"
+
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+msgid "Current Status"
+msgstr "Şuanki Durum"
+
+msgid "Click here to get your Authentication code."
+msgstr "Doğrulama Kodu almak için tıklayın."
+
+msgid "Read more"
+msgstr "Daha fazla oku"
+
+msgid "Create a free account "
+msgstr "Ücretsiz hesap aç"
+
+msgid "How to get the token :"
+msgstr "Nasıl jeton alınır :"
+
+msgid "Useful links :"
+msgstr "İşe yarar linkler:"
+
+msgid "You didn't configure Sagenda properly please enter your authentication code in Settings"
+msgstr "Sagenda'yı düzgün bir şekilde yapılandırmadınız.Lütfen ''Ayarlar''daki doğrulama kodunu giriniz."
+
+msgid "Search for all the events between"
+msgstr "Belirtilenler arasındaki tüm etkinlikleri ara"
+
+msgid "Back"
+msgstr "Geri"
+
+msgid "You successfully subscribed to the event."
+msgstr "Etkinliğe başarıyla kayıt oldunuz."
+
+msgid "Please pay for your event"
+msgstr "Lütfen etkinlik için ödeme yapınız."
+
+msgid "Pay"
+msgstr "Ödeme"
+
+msgid "From"
+msgstr "Nereden"
+
+msgid "To"
+msgstr "Nereye"
+
+msgid "Please choose a bookable item"
+msgstr "Lütfen rezervasyon yapılabilir bir şey seçiniz"
+
+msgid "Location"
+msgstr "Konum"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "Rezervasyon hesabınızı ücretsiz olarak Sagenda'dan açın!"
+
+msgid "Search"
+msgstr "Arama"
+
+msgid "Click an event to book It:"
+msgstr "Ayırmak istediğiniz etkinliğe tıklayın:"
+
+msgid "book-it!"
+msgstr "Yer ayır"
+
+msgid "Help"
+msgstr "Yardım"
+
+msgid "No event found for the bookable item within the selected date range."
+msgstr "Belirtilen tarih aralığında rezervasyon yapılabilir bir etkinlik bulunamadı."
+
+msgid "Subscription"
+msgstr "Abonelik"
+
+msgid "Email"
+msgstr "E-posta"
+
+msgid "First Name"
+msgstr "Ad"
+
+msgid "Last Name"
+msgstr "Soyad"
+
+msgid "Title"
+msgstr "Başlık"
+
+msgid "Mr."
+msgstr "Bay"
+
+msgid "Mrs."
+msgstr "Bayan "
+
+msgid "Miss"
+msgstr "Bayan"
+
+msgid "Dr"
+msgstr "Dr"
+
+msgid "Phone Number"
+msgstr "Telefon Numarası"
+
+msgid "Submit"
+msgstr "Onayla"
+
+msgid "Event Name"
+msgstr "Etkinlik Adı"
+
+msgid "Payment Amount"
+msgstr "Ödeme Miktarı"
+
+msgid "Now, let's book it! Please fill out the form below."
+msgstr "Şimdi,hadi rezervasyon yapalım!Lütfen aşağıdaki formu doldurunuz."
+
+msgid "Please fill out all the required fields"
+msgstr "Lütfen  gerekli alanları doldurunuz."
+
+msgid "Successfully connected"
+msgstr "Başarıyla bağlandı"
+
+msgid "An error has occurred. Booking wasn't saved."
+msgstr "Bir hata oluştu.Rezervasyon kaydedilmedi."

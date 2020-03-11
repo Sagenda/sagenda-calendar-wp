@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2018-12-08 09:26+0000\n"
+"PO-Revision-Date: 2020-03-11 22:17+0100\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.12\n"
+
+msgid "Next"
+msgstr "Następny"
+
+msgid "Today"
+msgstr "Dziś"
+
+msgid "Previous"
+msgstr "Poprzedni"
+
+msgid "Month"
+msgstr "Miesiąc"
+
+msgid "Week"
+msgstr "Tydzień"
+
+msgid "Day"
+msgstr "Dzień"
+
+msgid "You didn't add any Bookable item, please configure your Sagenda's account properly !"
+msgstr "Nie dodałeś żadnej rezerwacji, proszę skonfiguruj to poprawnie w koncie Sagenda!"
+
+msgid "NOT CONNECTED"
+msgstr "NIE POŁĄCZONO"
+
+msgid "CONNECTED"
+msgstr "POŁĄCZONO"
+
+msgid "Sagenda Authentication Settings"
+msgstr "Ustawienia uwierzytelniania Sagenda"
+
+msgid "Sagenda Authentication Code"
+msgstr "Kod uwierzytelniający Sagenda"
+
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+msgid "Current Status"
+msgstr "Obecny stan"
+
+msgid "Click here to get your Authentication code."
+msgstr "Kliknij tutaj aby otrzymać swój kod uwierzytelniający"
+
+msgid "If you want to use a shortcode outside of the WordPress post or page editor, you can use this snippet to output it from the shortcode’s handler(s): <pre>echo do_shortcode([sagenda-wp])</pre>"
+msgstr "Jeśli chcesz użyć krótkiego kodu na zewnątrz WordPressa dla wpisów lub edytora stron, możesz użyć ten fragment handlera: <pre>echo do_shortcode([sagenda-wp])</pre>"
+
+msgid "Read more"
+msgstr "Więcej"
+
+msgid "Create a free account "
+msgstr "Stwórz darmowe konto "
+
+msgid "How to get the token :"
+msgstr "Jak otrzymać token :"
+
+msgid "Useful links :"
+msgstr "Przydatne linki :"
+
+msgid "You didn't configure Sagenda properly please enter your authentication code in Settings"
+msgstr "Nie skonfigurowałeś konta Sagenda poprawnie, proszę wpisz swój kod autentykacyjny w Ustawieniach"
+
+msgid "Search for all the events between"
+msgstr "Wyszukaj wszystkie zdarzenia pomiędzy datami"
+
+msgid "Back"
+msgstr "Powrót do kalendarza"
+
+msgid "You successfully subscribed to the event."
+msgstr "Twoja rezerwacja przebiegła pomyślnie"
+
+msgid "Please pay for your event"
+msgstr "Zapłać za rezerwację"
+
+msgid "Pay"
+msgstr "Zapłać"
+
+msgid "From"
+msgstr "Od"
+
+msgid "To"
+msgstr "Do"
+
+msgid "Please choose a bookable item"
+msgstr "Wybierz zdarzenie"
+
+msgid "Location"
+msgstr "Lokalizacja"
+
+msgid "Description"
+msgstr "Dodatkowe informacje"
+
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "Stwórz darmowe konto Sagenda!"
+
+msgid "Search"
+msgstr "Szukaj"
+
+msgid "Click an event to book It:"
+msgstr "Kliknij poniżej aby zarezerwować:"
+
+msgid "book-it!"
+msgstr "zarezerwuj"
+
+msgid "Help"
+msgstr "Pomoc"
+
+msgid "No event found for the bookable item within the selected date range."
+msgstr "Nie znaleziono Przedmiotu rezerwacji w wybranym zakresie dat."
+
+msgid "Subscription"
+msgstr "Subskrypcja"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "First Name"
+msgstr "Imię"
+
+msgid "Last Name"
+msgstr "Nazwisko"
+
+msgid "Title"
+msgstr "Zwrot grzecznościowy"
+
+msgid "Mr."
+msgstr "Pan"
+
+msgid "Mrs."
+msgstr "Pani"
+
+msgid "Miss"
+msgstr "Panna"
+
+msgid "Dr"
+msgstr "Dr"
+
+msgid "Phone Number"
+msgstr "Numer telefonu"
+
+msgid "Submit"
+msgstr "Wyślij"
+
+msgid "Your selected booking :"
+msgstr "Twoje wybrane rezerwacje:"
+
+msgid "Event Name"
+msgstr "Nazwa rezerwacji"
+
+msgid "Payment Amount"
+msgstr "Kwota płatności"
+
+msgid "Now, let's book it! Please fill out the form below."
+msgstr "Proszę wypełnij formularz poniżej."
+
+msgid "Please fill out all the required fields"
+msgstr "Proszę uzupełnić wszystkie wymagane pola"
+
+msgid "Your token is wrong; please try again or generate another one in Sagenda’s backend."
+msgstr "Twój token jest niepoprawny, proszę spróbuj ponownie lub wygeneruj inny kod w backendzie Sagendy "
+
+msgid "An error has occurred. Booking wasn't saved."
+msgstr "Wystąpił błąd. Rezerwacja nie została zapisana."

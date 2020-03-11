@@ -1,0 +1,190 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2018-12-08 09:25+0000\n"
+"PO-Revision-Date: 2020-03-11 22:17+0100\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.8.12\n"
+
+msgid "Next"
+msgstr "Επόμενο"
+
+msgid "Today"
+msgstr "Σήμερα"
+
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+msgid "Month"
+msgstr "Μήνας"
+
+msgid "Week"
+msgstr "Εβδομάδα"
+
+msgid "Day"
+msgstr "Ημέρα"
+
+msgid "You didn't add any Bookable item, please configure your Sagenda's account properly !"
+msgstr "Δεν έχετε προσθέσει κανένα στοιχείο με δυνατότητα κράτησης, παρακαλούμε διαμορφώσετε σωστά τον λογαριασμό σας στη Sagenda!"
+
+msgid "NOT CONNECTED"
+msgstr "ΜΗ ΣΥΝΔΕΔΕΜΕΝΟ"
+
+msgid "CONNECTED"
+msgstr "ΣΥΝΔΕΔΕΜΕΝΟ"
+
+msgid "Sagenda Authentication Settings"
+msgstr "Ρυθμίσεις Επαλήθευσης Sagenda"
+
+msgid "Sagenda Authentication Code"
+msgstr "Κωδικό Επαλήθευσης Sagenda"
+
+msgid "Save Changes"
+msgstr "Αποθήκευσε τις αλλαγές"
+
+msgid "Current Status"
+msgstr "Τρέχουσα Κατάσταση"
+
+msgid "Click here to get your Authentication code."
+msgstr "Κάντε κλικ εδώ για να λάβετε τον κωδικό επαλήθευσης."
+
+msgid "<strong>[sagenda-wp]</strong> add this shortcode either in a post or page where you want to display the Sagenda form."
+msgstr "<strong>[sagenda-wp]</strong> προσθέστε αυτό το shortcode είτε σε ένα άρθρο είτε σε μια σελίδα όπου θέλετε να εμφανιστεί η φόρμα της Sagenda."
+
+msgid "<strong>[sagenda-wp bookableitem=\"my bookable item name\"]</strong> if you want to display only one bookable item on that page. Pay attention : if your bookable item is name \"My Item\", bookableitem=\"my item\" or bookableitem=\"My Item\" will be correct, but \"bookableitem=\"myitem\" not!"
+msgstr "<strong>[sagenda-wp bookableitem=\"my bookable item name\"]</strong> αν θέλετε να εμφανίσετε μόνο ένα στοιχείο που μπορεί να γίνει κράτηση στη συγκεκριμένη σελίδα. Δώστε προσοχή: εάν το στοιχείο που μπορείτε να κάνετε κράτηση είναι γραμμένο \"My Item\", το bookableitem = \"το στοιχείο μου\" ή το bookableitem = \"my item\" θα είναι σωστό, αλλά \"bookableitem=\"myitem\" όχι!"
+
+msgid "If you want to use a shortcode outside of the WordPress post or page editor, you can use this snippet to output it from the shortcode’s handler(s): <pre>echo do_shortcode([sagenda-wp])</pre>"
+msgstr "Αν θέλετε να χρησιμοποιήσετε ένα shortcode εκτός του WordPress άρθρου ή τον επεξεργαστή σελίδων, μπορείτε να χρησιμοποιήσετε αυτό το απόσπασμα για να το εξάγετε από τους shortcode’s handler(s): <pre>echo do_shortcode([sagenda-wp])</pre>"
+
+msgid "NOTE: You first need to register on Sagenda and then you will get a Authentication token which you will use to validate this Sagenda Plugin."
+msgstr "ΣΗΜΕΙΩΣΗ: Πρέπει πρώτα να εγγραφείτε στο Sagenda και στη συνέχεια θα λάβετε ένα διακριτικό ελέγχου ταυτότητας το οποίο θα χρησιμοποιήσετε για την επικύρωση αυτού του Sagenda πρόσθετου."
+
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+msgid "Create a free account "
+msgstr "Δημιουργήστε έναν δωρεάν λογαριασμό"
+
+msgid "About integration in your WP WebSite :"
+msgstr "Σχετικά με την ενσωμάτωση στην WP Ιστοσελίδα:"
+
+msgid "How to get the token :"
+msgstr "Πώς να αποκτήσετε το διακριτικό:"
+
+msgid "Useful links :"
+msgstr "Χρήσιμοι σύνδεσμοι:"
+
+msgid "You didn't configure Sagenda properly please enter your authentication code in Settings"
+msgstr "Δεν ρυθμίσατε σωστά το Sagenda, εισάγετε τον κωδικό επαλήθευσης στις Ρυθμίσεις"
+
+msgid "Search for all the events between"
+msgstr "Αναζήτηση όλων των συμβάντων μεταξύ"
+
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "You successfully subscribed to the event."
+msgstr "Έχετε εγγραφεί επιτυχώς στο συμβάν."
+
+msgid "Please pay for your event"
+msgstr "Παρακαλώ πληρώστε για το συμβάν σας"
+
+msgid "Pay"
+msgstr "Πληρωμή"
+
+msgid "From"
+msgstr "Από"
+
+msgid "To"
+msgstr "Προς"
+
+msgid "Please choose a bookable item"
+msgstr "Παρακαλώ διαλέξτε ένα στοιχείο κράτησης"
+
+msgid "Location"
+msgstr "Τοποθεσία"
+
+msgid "Description"
+msgstr "Περιγραφή"
+
+msgid "Create a free Booking Account on Sagenda!"
+msgstr "Δημιουργήστε έναν δωρεάν Λογαριασμό Κρατήσεων στο Sagenda!"
+
+msgid "Search"
+msgstr "Αναζήτηση"
+
+msgid "Click an event to book It:"
+msgstr "Κάντε κλικ σε ένα συμβάν για να κάνετε κράτηση:"
+
+msgid "book-it!"
+msgstr "Κάνε κράτηση!"
+
+msgid "Help"
+msgstr "Βοήθεια"
+
+msgid "No event found for the bookable item within the selected date range."
+msgstr "Δεν βρέθηκε κανένα συμβάν για το στοιχείο κράτησης εντός του επιλεγμένου εύρους ημερομηνιών."
+
+msgid "Subscription"
+msgstr "Συνδρομή"
+
+msgid "Email"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου:"
+
+msgid "First Name"
+msgstr "Όνομα"
+
+msgid "Last Name"
+msgstr "Επίθετο"
+
+msgid "Title"
+msgstr "Τίτλος"
+
+msgid "Mr."
+msgstr "Κος."
+
+msgid "Mrs."
+msgstr "Κα."
+
+msgid "Miss"
+msgstr "Δις."
+
+msgid "Dr"
+msgstr "Δρ."
+
+msgid "Phone Number"
+msgstr "Αριθμός Τηλεφώνου"
+
+msgid "Submit"
+msgstr "Υποβολή"
+
+msgid "Your selected booking :"
+msgstr "Η επιλεγμένη κράτησή σας:"
+
+msgid "Event Name"
+msgstr "Όνομα Συμβάντος"
+
+msgid "Payment Amount"
+msgstr "Ποσό Πληρωμής"
+
+msgid "Now, let's book it! Please fill out the form below."
+msgstr "Τώρα, ας κάνουμε κράτηση! Παρακαλούμε συμπληρώστε την παρακάτω φόρμα."
+
+msgid "Please fill out all the required fields"
+msgstr "Συμπληρώστε όλα τα απαιτούμενα πεδία"
+
+msgid "Successfully connected"
+msgstr "Συνδεθήκατε με επιτυχία"
+
+msgid "Your token is wrong; please try again or generate another one in Sagenda’s backend."
+msgstr "Το διακριτικό σας είναι λάθος. Δοκιμάστε ξανά ή δημιουργήστε ένα άλλο στο backend της Sagenda."
+
+msgid "An error has occurred. Booking wasn't saved."
+msgstr "Παρουσιάστηκε σφάλμα. Η κράτηση δεν αποθηκεύτηκε."

@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VERSION\n"
+"POT-Creation-Date: 2017-03-08 22:01+0100\n"
+"PO-Revision-Date: 2020-03-11 22:17+0100\n"
+"Last-Translator: David Imboden <info<this is at>iteration.info>\n"
+"Language-Team: LANGUAGE TEAM <EMAIL@ADDRESS>\n"
+"Language: sw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .\n"
+
+#~ msgid "NOT CONNECTED"
+#~ msgstr "HAIJAUNGANISHWA"
+
+#~ msgid "CONNECTED"
+#~ msgstr "IMEUNGANISHWA"
+
+#~ msgid "Sagenda Authentication Settings"
+#~ msgstr "Mipangilio ya uhalisishaji wa Sagenda"
+
+#~ msgid "Sagenda Authentication Code"
+#~ msgstr "Kodi ya uthibitisho ya Sagenda"
+
+#~ msgid "Save Changes"
+#~ msgstr "hifadhi mabadiliko"
+
+#~ msgid "Current Status"
+#~ msgstr "hali ya sasa"
+
+#~ msgid "Click here to get your Authentication code."
+#~ msgstr "Bofya hapa kupata kodi yako ya uthibitisho"
+
+#~ msgid "<strong>[sagenda-calendar-wp]</strong> add this shortcode either in a post or page where you want to display the Sagenda form."
+#~ msgstr "<strong>[sagenda-calendar-wp]</strong> ongeza hii code ya mkato kwenye posti au ukurasa ambao unataka kuonyesha  fomu ya Sagenda."
+
+#~ msgid "<strong>[sagenda-calendar-wp bookableitem=\"my bookable item name\"]</strong> if you want to display only one bookable item on that page. Pay attention : if your bookable item is name \"My Item\", bookableitem=\"my item\" or bookableitem=\"My Item\" will be correct, but \"bookableitem=\"myitem\" not!"
+#~ msgstr "<strong>[sagenda-calendar-wp kituchauhifadhi=\"Jina la kitu cha uhifadhi wangu\"]</strong>kama unataka kitu kimoja cha uhifadhi kioneshwe katika kurasa hiyo. Kuwa makini: kama kitu chako cha uhifadhi ni jina \"Kitu changu\", kituchauhifadhi=\" Kitu changu\" au kituchauhifadhi= \"Kitu changu\" itakuwa sawa, lakini \"kituchauhifadhi\"=\"kituchangu\" si!"
+
+#~ msgid "If you want to use a shortcode outside of the WordPress post or page editor, you can use this snippet to output it from the shortcode’s handler(s): <pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
+#~ msgstr "Kama unataka kutumia code ya mkato nje ya posti ya uchapishaji au ukurasa wa uhariri, unaweza kutumia snippet hii kupata matokeo kutoka kwa mshikaji au washikaji wa code ya mkato: <pre>echo do_codeyamkato([sagenda-calendar-wp])</pre>"
+
+#~ msgid "NOTE: You first need to register on Sagenda and then you will get a Authentication token which you will use to validate this Sagenda Plugin."
+#~ msgstr "KUMBUKA: Unahitaji kujisajili Sagenda kwanza halafu utapata tokeni ya uhalisishaji ambayo utaitumia kuhalalisha hii programu-jalizi ya Sagenda."
+
+#~ msgid "Read more"
+#~ msgstr "Soma zaidi"
+
+#~ msgid "Create a free account "
+#~ msgstr "Tengeneza akaunti ya bure "
+
+#~ msgid "About integration in your WP WebSite :"
+#~ msgstr "Kuhusu ushirikiano kwenye tovuti yako ya WP"
+
+#~ msgid "How to get the token :"
+#~ msgstr "Jinsi ya kupata tokeni:"
+
+#~ msgid "Useful links :"
+#~ msgstr "Miunganisho muhimu :"
+
+#~ msgid "Back"
+#~ msgstr "Nyuma"
+
+#~ msgid "You successfully subscribed to the event."
+#~ msgstr "Umefanikiwa kujiandikisha kwenye tukio."
+
+#~ msgid "You didn't configure Sagenda properly please enter your authentication code in Settings"
+#~ msgstr "Haukusanidi  Sagenda vizuri. Tafadhali ingiza kodi ya uthibitisho ya Sagenda katika mpangilio."
+
+#~ msgid "Search for all the events between"
+#~ msgstr "Tafuta matukio yote kati ya "
+
+#~ msgid "From"
+#~ msgstr "Kutoka"
+
+#~ msgid "To"
+#~ msgstr "Kwenda"
+
+#~ msgid "Please choose a bookable item"
+#~ msgstr "Tafadhali chagua kitu cha uhifadhi"
+
+#~ msgid "Location"
+#~ msgstr "Eneo"
+
+#~ msgid "Description"
+#~ msgstr "Maelezo"
+
+#~ msgid "Create a free Booking Account on Sagenda!"
+#~ msgstr "Tegeneza akaunti ya bure ya uhifadhi katika Sagenda!"
+
+#~ msgid "Search"
+#~ msgstr "Tafuta"
+
+#~ msgid "Click an event to book It:"
+#~ msgstr "bofya tukio kwa ajili ya uhifadhi:"
+
+#~ msgid "Help"
+#~ msgstr "Msaada"
+
+#~ msgid "No event found for the bookable item within the selected date range."
+#~ msgstr "Hakuna tukio lililopatiakana kwa ajili ya kitu cha uhifadhi kati ya tarehe ulizochagua."
+
+#~ msgid "Subscription"
+#~ msgstr "Usajili"
+
+#~ msgid "Email"
+#~ msgstr "Barua pepe"
+
+#~ msgid "First Name"
+#~ msgstr "Jina la kwanza"
+
+#~ msgid "Last Name"
+#~ msgstr "Jina la mwisho"
+
+#~ msgid "Title"
+#~ msgstr "Kichwa cha habari"
+
+#~ msgid "Mr."
+#~ msgstr "Bwana"
+
+#~ msgid "Mrs."
+#~ msgstr "Bibi"
+
+#~ msgid "Miss"
+#~ msgstr "Bi"
+
+#~ msgid "Dr"
+#~ msgstr "Dkt"
+
+#~ msgid "Phone Number"
+#~ msgstr "Namba ya Simu"
+
+#~ msgid "Submit"
+#~ msgstr "wasilisha"
+
+#~ msgid "Please fill out all the required fields"
+#~ msgstr "Tafadhali jaza sehemu zote zinazohitajika."
+
+#~ msgid "Successfully connected"
+#~ msgstr "Umefanikiwa kuunganishwa"
+
+#~ msgid "Your token is wrong; please try again or generate another one in Sagenda’s backend."
+#~ msgstr "Tokeni yako imekosewa; tafadhali jaribu tena au zalisha nyingine katika kisogo cha Sagenda."
+
+#~ msgid "An error has occurred. Booking wasn't saved."
+#~ msgstr "Kuna tatizo limetokea. Msahafu haujahifadhiwa"
