@@ -1,16 +1,18 @@
-<?php namespace SagendaCalendar\Helpers;
+<?php
+
+namespace SagendaCalendar\Helpers;
 
 /**
-* This helper class will give ease the usage of Subscription.
-*/
+ * This helper class will give ease the usage of Subscription.
+ */
 class SubscriptionHelper
 {
- // pas certain de faire un helper...
+  // pas certain de faire un helper...
 
   /**
-  * Collect booking information and lauch the Subscription view
-  * @param  object  $twig   TWIG template renderer
-  */
+   * Collect booking information and lauch the Subscription view
+   * @param  object  $twig   TWIG template renderer
+   */
   public function callSubscription($twig, $bookableItem)
   {
     $booking = new Booking();
@@ -18,7 +20,7 @@ class SubscriptionHelper
     $booking->EventScheduleId = $_GET['EventScheduleId'];
     $booking->DateDisplay = $_GET['DateDisplay']; // TODO : replace this by start end date with API v2.0
     $booking->BookableItemId = $bookableItem->Id;
-    $booking->BookableItemName= $_GET['bookableItemName'];
+    $booking->BookableItemName = $_GET['bookableItemName'];
     $booking->EventIdentifier = $_GET['EventIdentifier'];
     $booking->EventTitle = $_GET['eventTitle'];
     //payment Related
@@ -28,8 +30,6 @@ class SubscriptionHelper
     $booking->HostUrlLocation = $_GET['currentUrl'];
     //TODO : add payment info
     $subscriptionController = new SubscriptionController();
-    return $subscriptionController->showSubscription($twig, $booking );
+    return $subscriptionController->showSubscription($twig, $booking);
   }
-
-
 }
