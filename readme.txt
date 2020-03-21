@@ -108,7 +108,7 @@ composer update
 = 2.0.0-ALPHA-2 =
 ALPHA VERSION : DO NOT USE FOR PROD!
 * DEBUG : Correct multiple reservation bug.
-* DEBUG : Improve date and time formating when a date is over several days but without hours (all day event).
+* DEBUG : Improve date and time formatting when a date is over several days but without hours (all day event).
 * DEBUG : Remove "reservation title" if there's no reservation to display.
 
 == Changelog ==
