@@ -1,11 +1,13 @@
-<?php  namespace SagendaCalendar\Models\Entities;
+<?php
+
+namespace SagendaCalendar\Models\Entities;
 
 class Booking
 {
   public $ApiToken = "";
   public $EventIdentifier = "";
   public $BookableItemId = "";
-  public $BookableItemName= "";
+  public $BookableItemName = "";
   public $EventScheduleId = "";
   public $Courtesy = "";
   public $FirstName = "";
@@ -27,16 +29,17 @@ class Booking
 
   public function isReadyForSubmission()
   {
-    if (!empty($this->ApiToken)
-    &&  !empty($this->BookableItemId)
-    &&  !empty($this->EventScheduleId)
-    &&  !empty($this->Courtesy)
-    &&  !empty($this->FirstName)
-    &&  !empty($this->LastName)
-    &&  !empty($this->PhoneNumber)
-    &&  !empty($this->Email)
-    &&  !empty($this->EventIdentifier))
-    {
+    if (
+      !empty($this->ApiToken)
+      &&  !empty($this->BookableItemId)
+      &&  !empty($this->EventScheduleId)
+      &&  !empty($this->Courtesy)
+      &&  !empty($this->FirstName)
+      &&  !empty($this->LastName)
+      &&  !empty($this->PhoneNumber)
+      &&  !empty($this->Email)
+      &&  !empty($this->EventIdentifier)
+    ) {
       return true;
     }
     return false;

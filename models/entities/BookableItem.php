@@ -1,4 +1,6 @@
-<?php namespace SagendaCalendar\Models\Entities;
+<?php
+
+namespace SagendaCalendar\Models\Entities;
 
 class BookableItem
 {

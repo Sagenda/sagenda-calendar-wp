@@ -105,6 +105,13 @@ We will add your translations in the next release!
 
 composer update
 == Upgrade Notice ==
+= 2.0.0-ALPHA-2 =
+ALPHA VERSION : DO NOT USE FOR PROD!
+* DEBUG : Correct multiple reservation bug.
+* DEBUG : Improve date and time formating when a date is over several days but without hours (all day event).
+* DEBUG : Remove "reservation title" if there's no reservation to display.
+
+== Changelog ==
 = 2.0.0-ALPHA-1 =
 ALPHA VERSION : DO NOT USE FOR PROD!
 * ADDED : New calendar with Agenda view.
@@ -114,7 +121,6 @@ ALPHA VERSION : DO NOT USE FOR PROD!
 * UPDATED : Updated composer package (phpunit-bridge) to solve security advisory GHSA-w2fr-65vp-mxw3 (moderate severity).
 * LIMITATION : This version can't manage "Agenda" view for default nor activation/desactivation feature.
 
-== Changelog ==
 = 1.5.0 =
 * ADDED : improved support for customization edition form.
 * FIXED : A bug when adding another member for multiple booking and when not having customized fields.
