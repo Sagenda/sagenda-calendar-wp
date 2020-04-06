@@ -105,13 +105,20 @@ We will add your translations in the next release!
 
 composer update
 == Upgrade Notice ==
+= 2.0.0-ALPHA-3 =
+ALPHA VERSION : DO NOT USE FOR PROD!
+* DEBUG : Add event title of the event pattern to the frontend when asked by the Sagenda's account owner.
+* UPDATED : Updated to Angular 9.1
+
+
+== Changelog ==
 = 2.0.0-ALPHA-2 =
 ALPHA VERSION : DO NOT USE FOR PROD!
 * DEBUG : Correct multiple reservation bug.
 * DEBUG : Improve date and time formatting when a date is over several days but without hours (all day event).
 * DEBUG : Remove "reservation title" if there's no reservation to display.
 
-== Changelog ==
+
 = 2.0.0-ALPHA-1 =
 ALPHA VERSION : DO NOT USE FOR PROD!
 * ADDED : New calendar with Agenda view.
