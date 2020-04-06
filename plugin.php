@@ -81,21 +81,26 @@ function sagenda_calendar_is_CURL_Enabled()
 function head_code_sagenda_calendar()
 {
 	$headcode = '';
-	$headcode .= '<link rel="stylesheet" href="' . SAGENDA_CALENDAR_PLUGIN_URL . 'assets/vendor/bootstrap/bootstrap-wrapper.css" >';
-	$headcode .= '<link href="https://unpkg.com/@angular/material@9.1.1/prebuilt-themes/indigo-pink.css" rel="stylesheet">';
 	$headcode .= '<link href="' . SAGENDA_CALENDAR_PLUGIN_URL . 'assets/angular/styles.css" rel="stylesheet"/>';
+	// $headcode .= '<link href="https://unpkg.com/@angular/material@9.1.3/prebuilt-themes/indigo-pink.css" rel="stylesheet">';
+
+	// $headcode .= '<link rel="dx-theme" data-theme="generic.light" href="https://cdn3.devexpress.com/jslib/19.2.6/css/dx.light.css" data-active="true">';
+	// $headcode .= '<link rel="dx-theme" data-theme="generic.dark" href="https://cdn3.devexpress.com/jslib/19.2.6/css/dx.dark.css" data-active="false">';
 	echo $headcode;
 }
 add_action('wp_head', 'head_code_sagenda_calendar', 1, 1);
 
 /**
  * Include CSS, JavaScript in the footer section of the plugin.
+ * Try to remove in v2
  */
-function footer_code_sagenda_calendar()
+
+/* function footer_code_sagenda_calendar()
 {
 	echo '<link href="' . SAGENDA_CALENDAR_PLUGIN_URL . 'assets/angular/sagenda-integration.css" rel="stylesheet"/>';
 }
 add_action('wp_footer', 'footer_code_sagenda_calendar');
+ */
 
 /**
  * Action hooks for adding admin page
