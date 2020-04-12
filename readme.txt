@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.4
-Stable tag: 2.0.0 alpha
+Stable tag: 2.0.0 beta
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -105,13 +105,19 @@ We will add your translations in the next release!
 
 composer update
 == Upgrade Notice ==
+= 2.0.0-BETA-1 =
+BETA VERSION : DO NOT USE FOR PROD!
+* DEBUG : Oh... so much mess cleaned ;-)
+
+
+== Changelog ==
+
 = 2.0.0-ALPHA-3 =
 ALPHA VERSION : DO NOT USE FOR PROD!
 * DEBUG : Add event title of the event pattern to the frontend when asked by the Sagenda's account owner.
 * UPDATED : Updated to Angular 9.1
 
 
-== Changelog ==
 = 2.0.0-ALPHA-2 =
 ALPHA VERSION : DO NOT USE FOR PROD!
 * DEBUG : Correct multiple reservation bug.
