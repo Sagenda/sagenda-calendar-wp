@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.4
-Stable tag: 2.0.0 beta
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -105,12 +105,16 @@ We will add your translations in the next release!
 
 composer update
 == Upgrade Notice ==
-= 2.0.0-BETA-1 =
+= 2.0.0-BETA-2 =
 BETA VERSION : DO NOT USE FOR PROD!
-* DEBUG : Oh... so much mess cleaned ;-)
+* DEBUG : Corrected bug for paid events.
+* DEBUG : Corrected bug when using quota restrictions.
 
 
 == Changelog ==
+= 2.0.0-BETA-1 =
+BETA VERSION : DO NOT USE FOR PROD!
+* DEBUG : Oh... so much mess cleaned ;-)
 
 = 2.0.0-ALPHA-3 =
 ALPHA VERSION : DO NOT USE FOR PROD!
