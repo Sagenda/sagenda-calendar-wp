@@ -1,36 +1,58 @@
-
-<h1>{{sagendaAuthenticationSettings}} <font color="{{color}}">{{ connectedStatus }}</font></h1>
+<h1>{{sagendaAuthenticationSettings}}
+	<font color="{{color}}">{{ connectedStatus }}</font>
+</h1>
 <br/>
 
 <form name="form" action="" method="post">
-  <div class="form-group">
-    <label for="sagendaAuthenticationCode">{{ sagendaAuthenticationCode }}</label>
-    <input type="text" id="sagendaAuthenticationCode" name="sagendaAuthenticationCode" class="form-control" placeholder="{{ sagendaAuthenticationCode }}" value="{{tokenValue}}">
-  </div>
-  <br />
-  <div>
-    <div><button type="submit">{{ saveChanges }}</button></div>
-  </div>
+	<div class="form-group">
+		<label for="sagendaAuthenticationCode">{{ sagendaAuthenticationCode }}</label>
+		<input type="text" id="sagendaAuthenticationCode" name="sagendaAuthenticationCode" class="form-control" placeholder="{{ sagendaAuthenticationCode }}" value="{{tokenValue}}">
+	</div>
+	<br/>
+	<div>
+		<div>
+			<button type="submit">{{ saveChanges }}</button>
+		</div>
+	</div>
 </form>
 
 <h3>{{howToGetTheTokenTitle}}</h3>
 <p>{{registeringInfo}}</p>
-<br />
-<h3>{{aboutIntegrationTitle}}<strong>[sagenda-calendar-wp]</strong></h3>
+<br/>
+<h3>{{aboutIntegrationTitle}}<strong>[sagenda-calendar-wp]</strong>
+</h3>
 <p>{{shortCodeInfo|raw}}</p>
 <p>{{shortCodeOptionDefaultView|raw}}</p>
 <p>{{shortCodeOptionFixedBookableItem|raw}}</p>
+<p>{{shortCodeOptionUnactivateView|raw}}</p>
 <p>{{shortCodeInfoInPHP}}</p>
-<br />
+<br/>
 <h3>{{usefulLinksTitle}}</h3>
 
 <table style="width:100%">
-  <tr>
-    <th><a href="http://www.sagenda.com/integrate-booking-system-website/add-booking-plugin-wordpress-website/" target="_blank"><button type="button">{{ readMore }}</button></a></th>
-      <th><a href="http://sagenda.net/Accounts/Login" target="_blank"><button type="button">{{ clickHereToGetYourAuthenticationCode }}</button></a></th>
-  </tr>
-  <tr>
-    <th><a href="http://sagenda.net/Accounts/Register" target="_blank"><button type="button">{{ createAccount }}</button></a></th>
-    <th><a href="https://www.youtube.com/watch?v=wCEmJg2hWgw" target="_blank"><button type="button"> See video about WP plugin installation</button></a></th>
-  </tr>
+	<tr>
+		<th>
+			<a href="http://www.sagenda.com/integrate-booking-system-website/add-booking-plugin-wordpress-website/" target="_blank">
+				<button type="button">{{ readMore }}</button>
+			</a>
+		</th>
+		<th>
+			<a href="http://sagenda.net/Accounts/Login" target="_blank">
+				<button type="button">{{ clickHereToGetYourAuthenticationCode }}</button>
+			</a>
+		</th>
+	</tr>
+	<tr>
+		<th>
+			<a href="http://sagenda.net/Accounts/Register" target="_blank">
+				<button type="button">{{ createAccount }}</button>
+			</a>
+		</th>
+		<th>
+			<a href="https://www.youtube.com/watch?v=wCEmJg2hWgw" target="_blank">
+				<button type="button">
+					See video about WP plugin installation</button>
+			</a>
+		</th>
+	</tr>
 </table>

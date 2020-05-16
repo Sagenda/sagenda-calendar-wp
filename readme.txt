@@ -37,10 +37,10 @@ You can also use this feature with URL query parameter such as adding ?fixedbook
 
 You can choose the default view 
 `[sagenda-calendar-wp defaultView="x"]`
-where x is the "month", "week" or "day".
+where x is the "month", "week", "day" or "agenda".
 
 You can unactivate view(s)
-`[sagenda-calendar-wp removeMonthViewButton="true" removeWeekViewButton="true" removeDayViewButton="true"]`
+`[sagenda-calendar-wp removeMonthViewButton="true" removeWeekViewButton="true" removeDayViewButton="true" removeAgendaViewButton="true"]`
 This will simply remove the corresponding button to switch from a view to another one.
 
 
@@ -105,13 +105,19 @@ We will add your translations in the next release!
 
 composer update
 == Upgrade Notice ==
+= 2.0.0 =
+Bigest Sagenda update ever.
+* ADDED : New Calendar views (day, week, month)
+* ADDED : New Agenda view.
+* ADDED : You can now display bookings in public view (optional).
+* TESTED : PHP 7.4.x
+
+== Changelog ==
 = 2.0.0-BETA-2 =
 BETA VERSION : DO NOT USE FOR PROD!
 * DEBUG : Corrected bug for paid events.
 * DEBUG : Corrected bug when using quota restrictions.
 
-
-== Changelog ==
 = 2.0.0-BETA-1 =
 BETA VERSION : DO NOT USE FOR PROD!
 * DEBUG : Oh... so much mess cleaned ;-)
