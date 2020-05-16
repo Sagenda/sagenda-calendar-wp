@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Sagenda\n"
-"POT-Creation-Date: 2020-03-11 22:19+0100\n"
-"PO-Revision-Date: 2020-03-11 22:20+0100\n"
+"POT-Creation-Date: 2020-05-16 20:33+0200\n"
+"PO-Revision-Date: 2020-05-16 20:33+0200\n"
 "Last-Translator: David Imboden <info<this is at>iteration.info>\n"
 "Language-Team: Sagenda <send us a message from sagenda.com>\n"
 "Language: en_US\n"
@@ -21,105 +21,119 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-1: tests\n"
 "X-Poedit-SearchPathExcluded-2: doc\n"
 
-#: controllers/AdminTokenController.php:28
+#: controllers/AdminTokenController.php:33
 msgid "NOT CONNECTED"
 msgstr "NOT CONNECTED"
 
-#: controllers/AdminTokenController.php:33
+#: controllers/AdminTokenController.php:37
 msgid "CONNECTED"
 msgstr "CONNECTED"
 
-#: controllers/AdminTokenController.php:38
+#: controllers/AdminTokenController.php:42
 msgid "Sagenda Authentication Settings"
 msgstr "Sagenda Authentication Settings"
 
-#: controllers/AdminTokenController.php:39
+#: controllers/AdminTokenController.php:43
 msgid "Sagenda Authentication Code"
 msgstr "Sagenda Authentication Code"
 
-#: controllers/AdminTokenController.php:40
+#: controllers/AdminTokenController.php:44
 msgid "Save Changes"
 msgstr "Save Changes"
 
-#: controllers/AdminTokenController.php:41
+#: controllers/AdminTokenController.php:45
 msgid "Current Status"
 msgstr "Current Status"
 
-#: controllers/AdminTokenController.php:42
+#: controllers/AdminTokenController.php:46
 msgid "Click here to get your Authentication code."
 msgstr "Click here to get your Authentication code."
 
-#: controllers/AdminTokenController.php:43
-msgid ""
-"<strong>[sagenda-calendar-wp]</strong> add this shortcode either in a post "
-"or page where you want to display the Sagenda form."
-msgstr ""
-"<strong>[sagenda-calendar-wp]</strong> add this shortcode either in a post "
-"or page where you want to display the Sagenda form."
-
-#: controllers/AdminTokenController.php:44
-msgid ""
-"<strong>[sagenda-calendar-wp defaultView=\"x\"]</strong> to define the view "
-"you want to open by default, where x is \"monthy\", \"week\", \"day\"."
-msgstr ""
-"<strong>[sagenda-calendar-wp defaultView=\"x\"]</strong> to define the view "
-"you want to open by default, where x is \"monthy\", \"week\", \"day\"."
-
-#: controllers/AdminTokenController.php:45
-msgid ""
-"<strong>[sagenda-calendar-wp fixedbookableitem=\"x\"]</strong> where x is "
-"the \"id\" of your bookable item. To know the identifier of your bookable "
-"item, you can just go to your bookable item list :  <a href=\"https://"
-"sagenda.net/BookableItems/List\" target=\"_blank\">https://sagenda.net/"
-"BookableItems/List</a> and select \"edit\". You will find a button to copy "
-"the identifier."
-msgstr ""
-"<strong>[sagenda-calendar-wp fixedbookableitem=\"x\"]</strong> where x is "
-"the \"id\" of your bookable item. To know the identifier of your bookable "
-"item, you can just go to your bookable item list :  <a href=\"https://"
-"sagenda.net/BookableItems/List\" target=\"_blank\">https://sagenda.net/"
-"BookableItems/List</a> and select \"edit\". You will find a button to copy "
-"the identifier."
-
-#: controllers/AdminTokenController.php:46
-msgid ""
-"If you want to use a shortcode outside of the WordPress post or page editor, "
-"you can use this snippet to output it from the shortcode’s handler(s): "
-"<pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
-msgstr ""
-"If you want to use a shortcode outside of the WordPress post or page editor, "
-"you can use this snippet to output it from the shortcode’s handler(s): "
-"<pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
-
 #: controllers/AdminTokenController.php:47
 msgid ""
+"<strong>[sagenda-calendar-wp]</strong> add this shortcode either in a post "
+"or page where you want to display the Sagenda form."
+msgstr ""
+"<strong>[sagenda-calendar-wp]</strong> add this shortcode either in a post "
+"or page where you want to display the Sagenda form."
+
+#: controllers/AdminTokenController.php:48
+msgid ""
+"<strong>[sagenda-calendar-wp defaultView=\"x\"]</strong> to define the view "
+"you want to open by default, where x is \"month\", \"week\", \"day\", "
+"\"agenda\"."
+msgstr ""
+"<strong>[sagenda-calendar-wp defaultView=\"x\"]</strong> to define the view "
+"you want to open by default, where x is \"month\", \"week\", \"day\", "
+"\"agenda\"."
+
+#: controllers/AdminTokenController.php:49
+msgid ""
+"<strong>[sagenda-calendar-wp fixedbookableitem=\"x\"]</strong> where x is "
+"the \"id\" of your bookable item. To know the identifier of your bookable "
+"item, you can just go to your bookable item list :  <a href=\"https://"
+"sagenda.net/BookableItems/List\" target=\"_blank\">https://sagenda.net/"
+"BookableItems/List</a> and select \"edit\". You will find a button to copy "
+"the identifier."
+msgstr ""
+"<strong>[sagenda-calendar-wp fixedbookableitem=\"x\"]</strong> where x is "
+"the \"id\" of your bookable item. To know the identifier of your bookable "
+"item, you can just go to your bookable item list :  <a href=\"https://"
+"sagenda.net/BookableItems/List\" target=\"_blank\">https://sagenda.net/"
+"BookableItems/List</a> and select \"edit\". You will find a button to copy "
+"the identifier."
+
+#: controllers/AdminTokenController.php:50
+msgid ""
+"<strong>[sagenda-calendar-wp removeMonthViewButton=\"true\" "
+"removeWeekViewButton=\"true\" removeDayViewButton=\"true\" "
+"removeAgendaViewButton=\"true\"]</strong> This will simply remove the "
+"corresponding view name to switch from a view to another one."
+msgstr ""
+"<strong>[sagenda-calendar-wp removeMonthViewButton=\"true\" "
+"removeWeekViewButton=\"true\" removeDayViewButton=\"true\" "
+"removeAgendaViewButton=\"true\"]</strong> This will simply remove the "
+"corresponding view name to switch from a view to another one."
+
+#: controllers/AdminTokenController.php:51
+msgid ""
+"If you want to use a shortcode outside of the WordPress post or page editor, "
+"you can use this snippet to output it from the shortcode’s handler(s): "
+"<pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
+msgstr ""
+"If you want to use a shortcode outside of the WordPress post or page editor, "
+"you can use this snippet to output it from the shortcode’s handler(s): "
+"<pre>echo do_shortcode([sagenda-calendar-wp])</pre>"
+
+#: controllers/AdminTokenController.php:52
+msgid ""
 "NOTE: You first need to register on Sagenda and then you will get a "
 "Authentication token which you will use to validate this Sagenda Plugin."
 msgstr ""
 "NOTE: You first need to register on Sagenda and then you will get a "
 "Authentication token which you will use to validate this Sagenda Plugin."
 
-#: controllers/AdminTokenController.php:48
+#: controllers/AdminTokenController.php:53
 msgid "Read more"
 msgstr "Read more"
 
-#: controllers/AdminTokenController.php:49
+#: controllers/AdminTokenController.php:54
 msgid "Create a free account "
 msgstr "Create a free account "
 
-#: controllers/AdminTokenController.php:50
+#: controllers/AdminTokenController.php:55
 msgid "About integration in your WP WebSite :"
 msgstr "About integration in your WP WebSite :"
 
-#: controllers/AdminTokenController.php:51
+#: controllers/AdminTokenController.php:56
 msgid "How to get the token :"
 msgstr "How to get the token :"
 
-#: controllers/AdminTokenController.php:52
+#: controllers/AdminTokenController.php:57
 msgid "Useful links :"
 msgstr "Useful links :"
 
-#: controllers/CalendarController.php:41
+#: controllers/CalendarController.php:45
 msgid ""
 "You didn't configure Sagenda properly please enter your authentication code "
 "in Settings"
@@ -142,6 +156,15 @@ msgstr ""
 #: webservices/SagendaAPI.php:97
 msgid "An error has occurred. Booking wasn't saved."
 msgstr "An error has occurred. Booking wasn't saved."
+
+#~ msgid ""
+#~ "<strong>[sagenda-calendar-wp defaultView=\"x\"]</strong> to define the "
+#~ "view you want to open by default, where x is \"monthy\", \"week\", \"day"
+#~ "\"."
+#~ msgstr ""
+#~ "<strong>[sagenda-calendar-wp defaultView=\"x\"]</strong> to define the "
+#~ "view you want to open by default, where x is \"monthy\", \"week\", \"day"
+#~ "\"."
 
 #~ msgid ""
 #~ "<strong>[sagenda-calendar-wp bookableitem=\"my bookable item name\"]</"
