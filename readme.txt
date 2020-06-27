@@ -105,7 +105,7 @@ We will add your translations in the next release!
 
 composer update
 == Upgrade Notice ==
-= 2.0.0 =
+= 2.0.4 =
 Biggest Sagenda update ever.
 * ADDED : New Calendar views (day, week, month)
 * ADDED : New Agenda view.
