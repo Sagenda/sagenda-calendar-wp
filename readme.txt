@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.5
-Stable tag: 2.1.0
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -105,6 +105,10 @@ We will add your translations in the next release!
 
 composer update
 == Upgrade Notice ==
+= 2.1.1 =
+* FIXED : Compilation problem.
+* FIXED : When displaying calendar in adaptive mode, after a click events are displayed in the center of the screen also for mobile (not in the bottom).
+
 = 2.1.0 =
 Biggest Sagenda update ever.
 * ADDED : New Calendar views (day, week, month)
