@@ -5,14 +5,12 @@ namespace SagendaCalendar\Controllers;
 defined('ABSPATH') or die('No script kiddies please!');
 
 use SagendaCalendar\webservices\sagendaAPI;
-use SagendaCalendar\Helpers\PickadateHelper;
 use SagendaCalendar\Helpers\DateHelper;
 use SagendaCalendar\Helpers\ArrayHelper;
 use SagendaCalendar\Helpers\UrlHelper;
 use SagendaCalendar\Models\Entities\Booking;
 use SagendaCalendar\Models\Entities\BookableItem;
 
-include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'helpers/PickadateHelper.php');
 include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'helpers/UrlHelper.php');
 include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'helpers/DateHelper.php');
 include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'helpers/ArrayHelper.php');
