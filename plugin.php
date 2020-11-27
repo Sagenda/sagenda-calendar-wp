@@ -81,6 +81,7 @@ function sagenda_calendar_is_CURL_Enabled()
 function head_code_sagenda_calendar()
 {
 	echo '<link href="' . SAGENDA_CALENDAR_PLUGIN_URL . 'assets/angular/styles.css" rel="stylesheet"/>';
+	echo '<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"/>';
 }
 add_action('wp_head', 'head_code_sagenda_calendar', 1, 1);
 
