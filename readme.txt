@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.5
-Stable tag: 2.1.1
+Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -103,8 +103,11 @@ We will add your translations in the next release!
 6. Yes this form can be editer from your Sagenda.net account.
 7. How to identify my Sagenda account in WordPress? Copy the authentication code (token) from your Sagenda account and paste it into your WordPress installation
 
-composer update
+
 == Upgrade Notice ==
+= 2.2.0 =
+* IMPROVED : notification system.
+
 = 2.1.1 =
 * FIXED : Compilation problem.
 * FIXED : When displaying calendar in adaptive mode, after a click events are displayed in the center of the screen also for mobile (not in the bottom).
