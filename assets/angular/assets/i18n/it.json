@@ -30,7 +30,7 @@
 		"BLOCKED": "Bloccato",
 		"DATE": "Data",
 		"STATE_BOOKED": "prenotato",
-		"STATE_FREE": "Libero",
+		"STATE_FREE": "Prenotazioni aperte",
 		"STATE_PARTIALLY_BOOKED": "Parzialmente prenotato",
 		"UNBLOCK": "Sbloccare"
 	},
