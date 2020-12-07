@@ -30,7 +30,7 @@
 		"BLOCKED": "Disekat",
 		"DATE": "Tarikh",
 		"STATE_BOOKED": "Ditempah",
-		"STATE_FREE": "Percuma",
+		"STATE_FREE": "Buka tempahan",
 		"STATE_PARTIALLY_BOOKED": "Sebahagian ditempah",
 		"UNBLOCK": "Nyahsekat"
 	},
