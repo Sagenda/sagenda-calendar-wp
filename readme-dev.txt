@@ -7,7 +7,7 @@ Need doc ? Generated it with Doxygen (http://www.stack.nl/~dimitri/doxygen/downl
 
 == Views ==
 Views are rendered with TWIG template engine (http://twig.sensiolabs.org)
-Responsiveness is manage with Twitter bootstrap (http://getbootstrap.com/) and included into a bootstrap-wrapper in order to avoid conflict.
+Responsiveness is manage with Twitter bootstrap (http://getbootstrap.com/).
 
 
 == Culture / i18n / Date format... ==

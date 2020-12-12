@@ -4,7 +4,7 @@ Donate link: http://www.sagenda.com/community/
 Tags: booking, appointment, scheduling, availability, reservation, rental, free, accommodation, booking form, calendar
 Requires at least: 3.0
 Requires PHP: 5.6
-Tested up to: 5.5
+Tested up to: 5.6
 Stable tag: 2.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -107,6 +107,8 @@ We will add your translations in the next release!
 == Upgrade Notice ==
 = 2.2.0 =
 * IMPROVED : notification system.
+* IMPROVED : improve WordPress regulation updated to 2020 rules.
+* TESTED : WordPress 5.6
 
 = 2.1.1 =
 * FIXED : Compilation problem.

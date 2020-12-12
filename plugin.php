@@ -49,11 +49,12 @@ add_shortcode('sagenda-calendar-wp', 'sagenda_calendar_main');
  */
 function sagenda_calendar_is_PHP_version_OK()
 {
-	if (version_compare(phpversion(), '5.4.0', '<')) {
+	if (version_compare(phpversion(), '5.6.0', '<')) {
 		echo "You are runing an outdated version of PHP !" . "<br>";
 		echo "Your version is : " . phpversion() . "<br>";
-		echo "Minimal version : " . "5.4.0<br>";
-		echo "Recommended version : 7.4 or higher  (all version <7.1 are \"End of life\" and don't have security fixes!)" . "<br>";
+		echo "Minimal version : " . "5.6.0<br>";
+		echo "Recommended version : 7.4.x or higher (all version <7.3 are \"End of life\" and don't have security fixes!)" . "<br>";
+		echo "PHP 8 is only 'beta compatible' with WordPress 5.6.0, so we don't recommend to use it for now." . "<br>";
 		echo "Please read offical PHP recommendations <a href=\"https://php.net/supported-versions.php\">https://php.net/supported-versions.php</a><br>";
 		echo "Please update your PHP version form your admin panel. If you don't know how to do it please contact your WebMaster or your Hosting provider!";
 		return false;
@@ -76,15 +77,14 @@ function sagenda_calendar_is_CURL_Enabled()
 }
 
 /**
- * Include CSS, JavaScript in the head section of the plugin.
+ * Include css stype.
+ * Replace the legacy method : add_action('wp_head', 'head_code_sagenda_calendar', 1, 1);
  */
-function head_code_sagenda_calendar()
-{
-	echo '<link href="' . SAGENDA_CALENDAR_PLUGIN_URL . 'assets/angular/styles.css" rel="stylesheet"/>';
-	echo '<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet"/>';
+function wpdocs_sagenda_scripts() {
+    wp_enqueue_style( 'sagenda', SAGENDA_CALENDAR_PLUGIN_URL . 'assets/angular/styles.css');
+    wp_enqueue_style( 'bootstrap', SAGENDA_CALENDAR_PLUGIN_URL . 'assets/vendor/bootstrap.min.css');
 }
-add_action('wp_head', 'head_code_sagenda_calendar', 1, 1);
-
+add_action( 'wp_enqueue_scripts', 'wpdocs_sagenda_scripts' );
 
 /**
  * Action hooks for adding admin page

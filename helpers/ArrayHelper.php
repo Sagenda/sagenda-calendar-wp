@@ -7,7 +7,6 @@ namespace SagendaCalendar\Helpers;
  */
 class ArrayHelper
 {
-
   /**
    * Find the value of an element in an array
    * @param  array   $array     The array to inspect

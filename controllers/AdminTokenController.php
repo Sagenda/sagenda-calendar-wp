@@ -69,7 +69,7 @@ class AdminTokenController
   private function getAuthenticationToken()
   {
     if (isset($_POST['sagendaAuthenticationCode'])) {
-      return $_POST['sagendaAuthenticationCode'];
+      return sanitize_text_field($_POST['sagendaAuthenticationCode']);
     } else {
       return get_option('mrs1_authentication_code');
     }
@@ -82,8 +82,8 @@ class AdminTokenController
   {
     if (isset($_POST['sagendaAuthenticationCode'])) {
       // add option does nothing if already exist. So try to create, if exist update the value.
-      add_option('mrs1_authentication_code', $_POST['sagendaAuthenticationCode'], '', 'yes');
-      update_option('mrs1_authentication_code', $_POST['sagendaAuthenticationCode']);
+      add_option('mrs1_authentication_code', sanitize_text_field($_POST['sagendaAuthenticationCode']), '', 'yes');
+      update_option('mrs1_authentication_code', sanitize_text_field($_POST['sagendaAuthenticationCode']));
     }
   }
 }
