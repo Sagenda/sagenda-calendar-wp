@@ -48,11 +48,11 @@ class SagendaAPI
   public function validateAccount($token)
   {
     $result = \Unirest\Request::get($this->apiUrl . "ValidateAccount/" . $token)->body;
-    $message = __('Successfully connected', 'sagenda-calendar-wp');
+    $message = esc_html('Successfully connected', 'sagenda-calendar-wp');
     $didSucceed = true;
     //TODO : use a better checking error code system than string comparaison
     if ($result->Message == "Error: API Token is invalid") {
-      $message = __('Your token is wrong; please try again or generate another one in Sagenda’s backend.', 'sagenda-calendar-wp');
+      $message = esc_html('Your token is wrong; please try again or generate another one in Sagenda’s backend.', 'sagenda-calendar-wp');
       $didSucceed = false;
     }
     return array('didSucceed' => $didSucceed, 'Message' => $message);

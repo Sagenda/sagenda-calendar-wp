@@ -36,7 +36,7 @@ class CalendarController
       return $twig->render($this->view, array(
         'isError'                  => true,
         'hideSearchForm'           => true,
-        'errorMessage'             => __("You didn't configure Sagenda properly please enter your authentication code in Settings", 'sagenda-calendar-wp'),
+        'errorMessage'             => esc_html("You didn't configure Sagenda properly please enter your authentication code in Settings", 'sagenda-calendar-wp'),
       ));
       return;
     }
