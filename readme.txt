@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.6
-Stable tag: 2.2.0
+Stable tag: 2.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -105,6 +105,13 @@ We will add your translations in the next release!
 
 
 == Upgrade Notice ==
+
+= 2.2.1 =
+* FIXED : Bug in bootstrap path.
+
+
+
+== Changelog ==
 = 2.2.0 =
 * IMPROVED : notification system.
 * IMPROVED : improve WordPress regulation updated to 2020 rules.
@@ -121,7 +128,6 @@ Biggest Sagenda update ever.
 * ADDED : You can now display bookings in public view (optional).
 * TESTED : PHP 7.4.x
 
-== Changelog ==
 = 2.0.0-BETA-2 =
 BETA VERSION : DO NOT USE FOR PROD!
 * DEBUG : Corrected bug for paid events.
