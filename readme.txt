@@ -108,7 +108,7 @@ We will add your translations in the next release!
 
 = 2.2.1 =
 * FIXED : Bug in bootstrap path.
-
+* FIXED : Bug layout for Day, Week view.
 
 
 == Changelog ==
