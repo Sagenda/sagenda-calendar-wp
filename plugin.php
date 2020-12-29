@@ -6,7 +6,7 @@
  * Description:       Sagenda is a free Online Booking / Scheduling / Reservation System, which gives customers the opportunity to choose the date and the time of an appointment according to your preferences.
  * Version:           2.2.1
  * Author:            sagenda
- * Author URI:        http://www.iteration.info
+ * Author URI:        https://www.iteration.info
  * License:           GPLv2
  * Domain Path:       /languages
  */
@@ -70,7 +70,7 @@ function sagenda_calendar_is_CURL_Enabled()
 {
 	if (!function_exists('curl_version')) {
 		echo "You need to install cURL module in your PHP server in order to make WebServices calls!" . "<br>";
-		echo "More info there : <a href=\"http://php.net/manual/en/curl.installation.php\">http://php.net/manual/en/curl.installation.php</a><br>";
+		echo "More info there : <a href=\"https://php.net/manual/en/curl.installation.php\">https://php.net/manual/en/curl.installation.php</a><br>";
 		return false;
 	}
 	return true;
