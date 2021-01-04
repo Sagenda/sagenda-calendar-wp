@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.6
-Stable tag: 2.2.1
+Stable tag: 2.2.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,12 +106,16 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 
+= 2.2.2 =
+* FIXED : Remove some warning for missing files.
+
+
+== Changelog ==
 = 2.2.1 =
 * FIXED : Bug in bootstrap path.
 * FIXED : Bug layout for Day, Week view.
 
 
-== Changelog ==
 = 2.2.0 =
 * IMPROVED : notification system.
 * IMPROVED : improve WordPress regulation updated to 2020 rules.
