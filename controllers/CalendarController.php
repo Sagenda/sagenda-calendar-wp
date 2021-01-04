@@ -11,8 +11,6 @@ use SagendaCalendar\Helpers\ArrayHelper;
 include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'helpers/DateHelper.php');
 include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'helpers/ArrayHelper.php');
 include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'webservices/SagendaAPI.php');
-include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'models/entities/Booking.php');
-include_once(SAGENDA_CALENDAR_PLUGIN_DIR . 'models/entities/BookableItem.php');
 
 /**
  * This controller will be responsible for displaying the free events in frontend in order to be searched and booked by the visitor.
