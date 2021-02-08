@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.6
-Stable tag: 2.2.2
+Stable tag: 2.3.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,15 +106,17 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 
-= 2.2.2 =
-* FIXED : Remove some warning for missing files.
+= 2.3.0 =
+* ADDED : Calendar can open at first at a specified date.
 
 
 == Changelog ==
+= 2.2.2 =
+* FIXED : Remove some warning for missing files.
+
 = 2.2.1 =
 * FIXED : Bug in bootstrap path.
 * FIXED : Bug layout for Day, Week view.
-
 
 = 2.2.0 =
 * IMPROVED : notification system.
@@ -133,7 +135,7 @@ Biggest Sagenda update ever.
 * TESTED : PHP 7.4.x
 
 = 2.0.0-BETA-2 =
-BETA VERSION : DO NOT USE FOR PROD!
+BETA VERSION : DO NOT USE FOR PROD!––
 * DEBUG : Corrected bug for paid events.
 * DEBUG : Corrected bug when using quota restrictions.
 
