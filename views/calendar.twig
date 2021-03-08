@@ -15,6 +15,13 @@
 	window.sagendaFixedBookableItem = "{{ fixedBookableItem }}";
 	window.baseUrl = "https://sagenda.net/api/v3/";
 	window.sagendaAngularPath = "{{ SAGENDA_CALENDAR_PLUGIN_URL }}assets/angular/";
+	//added this because of different scroll behaviour on Mac and Windows
+	if(window.navigator.userAgent.indexOf("Mac") === -1){
+		let link = document.createElement('link'); 
+		link.rel = 'stylesheet';  
+		link.href = '{{ SAGENDA_CALENDAR_PLUGIN_URL }}assets/angular/scroll.css'; 
+		document.getElementsByTagName("head")[0].appendChild(link);
+	}
 </script>
 <script type="text/javascript" src="{{SAGENDA_CALENDAR_PLUGIN_URL}}assets/angular/runtime.js"></script>
 <script type="text/javascript" src="{{SAGENDA_CALENDAR_PLUGIN_URL}}assets/angular/polyfills.js"></script>
