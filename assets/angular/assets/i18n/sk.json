@@ -30,6 +30,7 @@
 		"BLOCK": "Blok",
 		"BLOCKED": "Upchatý",
 		"DATE": "Dátum",
+		"EVENT_TITLE": "Názov podujatia",
 		"STATE_BOOKED": "Rezervovaný",
 		"STATE_FREE": "Otvorená rezervácia",
 		"STATE_FREE_OPEN": "",

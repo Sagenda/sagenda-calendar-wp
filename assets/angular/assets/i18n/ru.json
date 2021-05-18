@@ -30,6 +30,7 @@
 		"BLOCK": "блок",
 		"BLOCKED": "блокированный",
 		"DATE": "Дата",
+		"EVENT_TITLE": "Название события",
 		"STATE_BOOKED": "бронирования",
 		"STATE_FREE": "Открыть резервацию",
 		"STATE_FREE_OPEN": "",

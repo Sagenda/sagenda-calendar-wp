@@ -30,6 +30,7 @@
 		"BLOCK": "Lohko",
 		"BLOCKED": "Tukossa",
 		"DATE": "Päivämäärä",
+		"EVENT_TITLE": "Tapahtuman otsikko",
 		"STATE_BOOKED": "Varattu",
 		"STATE_FREE": "Avoin varaus",
 		"STATE_FREE_OPEN": "",

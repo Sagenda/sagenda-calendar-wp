@@ -30,6 +30,7 @@
 		"BLOCK": "Blokuoti",
 		"BLOCKED": "Užblokuotas",
 		"DATE": "Data",
+		"EVENT_TITLE": "Renginio pavadinimas",
 		"STATE_BOOKED": "Užsakyta",
 		"STATE_FREE": "Atidaryti rezervaciją(-as)",
 		"STATE_FREE_OPEN": "",

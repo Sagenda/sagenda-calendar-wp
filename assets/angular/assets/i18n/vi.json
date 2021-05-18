@@ -30,6 +30,7 @@
 		"BLOCK": "Khối",
 		"BLOCKED": "Bắt đầu",
 		"DATE": "Ngày",
+		"EVENT_TITLE": "Tiêu đề của sự kiện",
 		"STATE_BOOKED": "ĐẶT",
 		"STATE_FREE": "Mở đặt phòng",
 		"STATE_FREE_OPEN": "",

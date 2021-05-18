@@ -30,6 +30,7 @@
 		"BLOCK": "블록",
 		"BLOCKED": "막힌",
 		"DATE": "날짜",
+		"EVENT_TITLE": "이벤트 제목",
 		"STATE_BOOKED": "예약 됨",
 		"STATE_FREE": "오픈 예약",
 		"STATE_FREE_OPEN": "",

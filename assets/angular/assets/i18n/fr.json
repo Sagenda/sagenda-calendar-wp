@@ -30,6 +30,7 @@
 		"BLOCK": "Bloquer",
 		"BLOCKED": "Bloqué",
 		"DATE": "Date",
+		"EVENT_TITLE": "Titre de l'événement",
 		"STATE_BOOKED": "Réservé",
 		"STATE_FREE": "Réservation(s) ouverte(s)",
 		"STATE_FREE_OPEN": "Ouverte(s)",

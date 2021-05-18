@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.7
-Stable tag: 2.3.1
+Stable tag: 2.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,15 +106,17 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 
+= 2.3.2 =
+* FIXED : Correct a bug when switching from month view to week view the days in the previous month (if splited on 2 months) where not displayed.
+
+
+== Changelog ==
+
 = 2.3.1 =
 * FIXED : Correct a date format bug in FireFox.
 * FIXED : Correct a bug with scoll only happening in macOS and iOS devices when having a lots of events and using the "adaptive" mode with monthly view.
 * FIXED : Correct a bug in the list of bookable items where special chars where pushed at the end. Now special chars are listed in the alphabetical order. BEFORE : a, b, c, d, z, à. NOW : a, à, b, c, d, z.  
 * TESTED : WordPress 5.7
-
-
-
-== Changelog ==
 
 = 2.3.0 =
 * ADDED : Calendar can open at first at a specified date.
