@@ -30,7 +30,6 @@
 		"BLOCK": "Block",
 		"BLOCKED": "Blocked",
 		"DATE": "Kuupäev",
-		"EVENT_TITLE": "Ürituse pealkiri",
 		"STATE_BOOKED": "Broneeritud",
 		"STATE_FREE": "Avatud broneering(ud)",
 		"STATE_FREE_OPEN": "",
