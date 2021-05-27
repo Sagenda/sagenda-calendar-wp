@@ -5,7 +5,7 @@ Tags: booking, appointment, scheduling, availability, reservation, rental, free,
 Requires at least: 3.0
 Requires PHP: 5.6
 Tested up to: 5.7
-Stable tag: 2.3.2
+Stable tag: 2.3.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,11 +106,19 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 
-= 2.3.2 =
-* FIXED : Correct a bug when switching from month view to week view the days in the previous month (if splited on 2 months) where not displayed.
+= 2.3.3 =
+* FIXED : Loading animation was not stopping if no event to display.
 
 
 == Changelog ==
+
+= 2.3.3 =
+* FIXED : Loading animation was not stopping if no event to display.
+
+
+= 2.3.2 =
+* FIXED : Correct a bug when switching from month view to week view the days in the previous month (if splited on 2 months) where not displayed.
+
 
 = 2.3.1 =
 * FIXED : Correct a date format bug in FireFox.
