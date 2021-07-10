@@ -4,8 +4,8 @@ Donate link: https://www.sagenda.com/community/
 Tags: booking, appointment, scheduling, availability, reservation, rental, free, accommodation, booking form, calendar
 Requires at least: 3.0
 Requires PHP: 5.6
-Tested up to: 5.7
-Stable tag: 2.3.3
+Tested up to: 5.8
+Stable tag: 2.4.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -106,11 +106,16 @@ We will add your translations in the next release!
 
 == Upgrade Notice ==
 
-= 2.3.3 =
-* FIXED : Loading animation was not stopping if no event to display.
+= 2.4.0 =
+* ADDED : Timezone support.
+* TESTED : WordPress 5.8.
 
 
 == Changelog ==
+
+= 2.4.0 =
+* ADDED : Timezone support.
+* TESTED : WordPress 5.8.
 
 = 2.3.3 =
 * FIXED : Loading animation was not stopping if no event to display.

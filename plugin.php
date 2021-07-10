@@ -4,7 +4,7 @@
  * Plugin Name:       Sagenda Calendar
  * Plugin URI:        https://www.sagenda.com/
  * Description:       Sagenda is a free Online Booking / Scheduling / Reservation System, which gives customers the opportunity to choose the date and the time of an appointment according to your preferences.
- * Version:           2.3.3
+ * Version:           2.4.0
  * Author:            sagenda
  * Author URI:        https://www.iteration.info
  * License:           GPLv2
